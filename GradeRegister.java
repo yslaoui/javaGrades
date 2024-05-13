@@ -37,8 +37,9 @@ public class GradeRegister {
     }
 
     public void print() {
-        System.out.println(this.grades);
-        System.out.println(this.buckets);
+        for (int i=0; i< this.buckets.size(); i++) {
+            System.out.println(i + " : " + this.buckets.get(i));
+        }
     }
 
 
